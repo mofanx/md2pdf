@@ -6,7 +6,7 @@
  * 用法示例：
  *   md2pdf <input> [output] [--ext .pdf]
  * 
- * @author mofanx <mofanx@qq.com>
+ * @author mofanx <yanwuning@live.cn>
  * @license MIT
  */
 import { Command } from 'commander';
