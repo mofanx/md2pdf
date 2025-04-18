@@ -1,6 +1,6 @@
 {
   "name": "@mofanx/md2pdf",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "高兼容性 Markdown 转 PDF 工具，支持本地图片、批量转换、字体优化，命令行一键使用。",
   "main": "dist/index.js",
   "bin": {
