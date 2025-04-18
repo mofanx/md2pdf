@@ -18,7 +18,7 @@ const program = new Command();
 program
   .name('md2pdf')
   .description('将 Markdown 文件或目录批量转换为 PDF')
-  .version('1.0.0')
+  .version('1.0.4')
   .argument('<input>', '输入的 Markdown 文件或目录路径')
   .argument('[output]', '输出的 PDF 文件路径或目录，可选')
   .option('--ext <ext>', '输出 PDF 文件后缀名', '.pdf')
