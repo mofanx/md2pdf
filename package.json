@@ -1,18 +1,34 @@
 {
-  "name": "md2pdf",
+  "name": "@mofanx/md2pdf",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "高兼容性 Markdown 转 PDF 工具，支持本地图片、批量转换、字体优化，命令行一键使用。",
+  "main": "dist/index.js",
   "bin": {
-    "md2pdf": "bin/md2pdf.ts"
+    "md2pdf": "bin/md2pdf.js"
   },
   "scripts": {
+    "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["markdown", "pdf", "md2pdf", "cli", "puppeteer", "batch", "图片", "代码块", "字体", "converter"],
+  "author": "mofanx <mofanx@qq.com>",
+  "license": "MIT",
   "packageManager": "pnpm@10.8.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mofanx/md2pdf.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mofanx/md2pdf/issues"
+  },
+  "homepage": "https://github.com/mofanx/md2pdf#readme",
+  "files": [
+    "bin/",
+    "src/",
+    "dist/",
+    "README.md",
+    "LICENSE"
+  ],
   "dependencies": {
     "@types/node": "^22.14.1",
     "commander": "^13.1.0",

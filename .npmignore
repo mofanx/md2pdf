@@ -1,0 +1,17 @@
+examples/
+test*
+*.test.ts
+*.spec.ts
+.gitignore
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+logs/
+*.log
+*.swp
+*.swo
+coverage/
+.env
+.env.*
+README.assets/
