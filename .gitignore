@@ -1,0 +1,52 @@
+# Node
+node_modules/
+.npm/
+.pnpm/
+
+# TypeScript
+*.tsbuildinfo
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Output
+*.pdf
+*.html
+dist/
+build/
+
+# Cache
+.cache/
+coverage/
+
+# Local env
+.env
+.env.*
+
+# Test
+*.test.ts
+*.spec.ts
+test*
+
+# Misc
+*.bak
+*.tmp
+
+# example
+examples/
+examples/*
